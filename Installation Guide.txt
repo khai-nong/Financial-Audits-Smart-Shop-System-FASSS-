@@ -1,0 +1,24 @@
+================== Installation Guide =======================
+
+1. Install the tkinter plugin (if not already installed, the line import tkinter will not be red), pyMysql, and tkcalendar in Python or the program you will use to run the application.
+2. Install the Quark font located in the Pic folder, both files.
+
+3. Import the fasss.sql database into phpMyAdmin.
+4. Edit the passwords (passwd) to your own in each file to enable the program to connect to the database, as follows:
+
+In the Add_data_Customer file, edit lines 13, 34, and 53.
+In the Add_data_finance file, edit lines 10, 91, and 146.
+In the Add_data_payowe file, edit lines 16 and 53.
+
+In the Edit_data_finance file, edit lines 16 and 57.
+In the Edit_data_payowe file, edit lines 12 and 81.
+In the Edit_data_record file, edit lines 16, 40, and 96.
+
+In the View_day file, edit lines 16, 103, and 127.
+In the View_month file, edit lines 17, 71, and 98.
+In the View_year file, edit lines 16, 71, and 98.
+In the View_record file, edit lines 12 and 34.
+
+After editing, remember to save the files.
+
+5. Access the Mainmenu file and click Run to start the program.
